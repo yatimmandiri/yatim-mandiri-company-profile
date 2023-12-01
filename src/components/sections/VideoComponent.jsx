@@ -17,7 +17,6 @@ export default function VideoComponent() {
       <iframe
         className="mt-7 rounded-lg w-full h-44"
         src="https://www.youtube.com/embed/9bZkp7q19f0"
-        frameBorder={0}
       />
     </section>
   );

@@ -35,6 +35,10 @@ h1 {
 }
 
 h2 {
+  @apply font-medium text-base;
+}
+
+h3 {
   @apply font-medium text-sm;
 }
 
