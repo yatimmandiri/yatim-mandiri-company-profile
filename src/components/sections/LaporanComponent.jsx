@@ -1,5 +1,3 @@
-import { Button, Card } from "antd";
-import { ArrowRightOutlined } from "@ant-design/icons";
 import React from "react";
 import Image from "next/image";
 
@@ -23,7 +21,7 @@ export default function LaporanComponent() {
                 <span>Lihat laporan </span> <span>dan audit keuangan</span>
               </h2>
               <button className="w-6 h-6">
-                <ArrowRightOutlined className="text-white " />
+                {/* <ArrowRightOutlined className="text-white " /> */}
               </button>
             </div>
 

@@ -2,8 +2,9 @@
 
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
-import TestimonialItemsComponent from "./TestimonialItemsComponent";
+// import TestimonialItemsComponent from "./TestimonialItemsComponent";
 import { Navigation } from "swiper/modules";
+import { Carousel } from "@mantine/carousel";
 
 export default function TestimonialComponent() {
   return (
@@ -39,7 +40,27 @@ export default function TestimonialComponent() {
             <TestimonialItemsComponent />
           </SwiperSlide>
         </Swiper>
+        {/* <Carousel height={200}>
+          <Carousel.Slide>
+            <TestimonialItemsComponent />
+          </Carousel.Slide>
+        </Carousel> */}
         {/* TESTIMONIAL END */}
+      </section>
+    </>
+  );
+}
+
+export function TestimonialItemsComponent() {
+  return (
+    <>
+      <section className="mx-3 p-4 border rounded-xl border-black bg-white">
+        <h2 className="font-bold text-xl mb-2">Rizki Rachman,</h2>
+        <p className="mb-4">Penerima Manfaat</p>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odit sed
+          pariatur odio nemo unde sint culpa alias. Animi, iusto tempore?
+        </p>
       </section>
     </>
   );
