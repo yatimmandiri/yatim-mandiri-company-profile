@@ -3,6 +3,12 @@ const nextConfig = {
   distDir: 'build',
   images: {
     dangerouslyAllowSVG: true,
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'picsum.photos',
+      },
+    ],
   },
 };
 
