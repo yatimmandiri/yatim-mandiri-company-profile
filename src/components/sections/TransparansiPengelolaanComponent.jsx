@@ -3,7 +3,7 @@ import { FaArrowRight } from 'react-icons/fa';
 
 export const TransparansiPengelolaanComponent = () => {
   return (
-    <div className='flex justify-between items-center p-4 max-w-6xl mx-auto'>
+    <section className='flex justify-between items-center p-4 pb-6 max-w-6xl mx-auto'>
       <div className='flex flex-col space-y-2.5'>
         <div className='text-lg font-bold'>
           <span className='text-orange-500'>Transparansi</span> Pengelolaan
@@ -28,7 +28,7 @@ export const TransparansiPengelolaanComponent = () => {
           </div>
         </button>
 
-        <div className='text-xs pt-2'>
+        <div className='text-sm pt-2'>
           Yatim Mandiri rutin menyerahkan laporan audit keuangan ke:
         </div>
         <div className='flex items-center space-x-4'>
@@ -75,6 +75,6 @@ export const TransparansiPengelolaanComponent = () => {
           Kotak
         </div> */}
       </div>
-    </div>
+    </section>
   );
 };
